@@ -1,15 +1,24 @@
 {
-    "name": "eslint-config-madewithlove",
-    "version": "1.0.0",
-    "description": "ESlint rules for React projects",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/madewithlove/eslint-config-madewithlove.git"
-    },
-    "author": {
-        "name": "Madewithlove",
-        "email": "heroes@madewithlove.be"
-    },
-    "license": "MIT"
+  "name": "eslint-config-madewithlove",
+  "version": "1.0.0",
+  "description": "ESlint rules for React projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madewithlove/eslint-config-madewithlove.git"
+  },
+  "author": {
+    "name": "Madewithlove",
+    "email": "heroes@madewithlove.be"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-react": "^3.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "*"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish"
+  }
 }
