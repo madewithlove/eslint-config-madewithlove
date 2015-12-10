@@ -9,10 +9,12 @@ module.exports = {
         "modules": true,
     },
     "rules": {
+        "arrow-body-style": [2, "as-needed"],
         "arrow-parens": [2, "as-needed"],
         "arrow-spacing": 2,
         "constructor-super": 2,
         "generator-star-spacing": 2,
+        "no-arrow-condition": 2,
         "no-class-assign": 2,
         "no-const-assign": 2,
         "no-dupe-class-members": 2,
@@ -21,8 +23,8 @@ module.exports = {
         "object-shorthand": 2,
         "prefer-arrow-callback": 2,
         "prefer-const": 2,
-        "prefer-spread": 2,
         "prefer-reflect": 2,
+        "prefer-spread": 2,
         "prefer-template": 2,
         "require-yield": 2,
     }
