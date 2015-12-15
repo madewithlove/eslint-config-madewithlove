@@ -9,11 +9,12 @@ module.exports = {
         "modules": true,
     },
     "rules": {
-        "arrow-body-style": [2, "as-needed"],
+        "arrow-body-style": [0, "as-needed"],
         "arrow-parens": [2, "as-needed"],
         "arrow-spacing": 2,
         "constructor-super": 2,
         "generator-star-spacing": 2,
+        "jsx-quotes": 2,
         "no-arrow-condition": 2,
         "no-class-assign": 2,
         "no-const-assign": 2,
