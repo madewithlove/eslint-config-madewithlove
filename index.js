@@ -1,5 +1,6 @@
 module.exports = {
     "extends": [
+        "eslint:recommended",
         "eslint-config-madewithlove/rules/errors",
         "eslint-config-madewithlove/rules/best-practices",
         "eslint-config-madewithlove/rules/node",

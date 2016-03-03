@@ -13,10 +13,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "eslint-plugin-react": "^3.11.3"
+    "babel-eslint": "^5.0.0",
+    "eslint-plugin-react": "^4.1.0"
   },
   "peerDependencies": {
-    "eslint": "^1.10.3"
+    "eslint": "^2.2.0"
   },
   "scripts": {
     "postversion": "git push && git push --tags && npm publish"
