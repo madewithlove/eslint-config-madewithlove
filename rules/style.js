@@ -33,7 +33,7 @@ module.exports = {
         "max-depth": 2,
         "max-len": 0,
         "max-nested-callbacks": 2,
-        "max-params": [1, {"maximum": 5}],
+        "max-params": [1, 5],
         "max-statements": 2,
         "new-cap": 2,
         "new-parens": 2,
