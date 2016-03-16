@@ -1,4 +1,6 @@
 module.exports = {
+    "parser": 'babel-eslint',
+    "plugins": ['babel'],
     "env": {
         "browser": true,
         "node": true,
@@ -10,10 +12,10 @@ module.exports = {
     },
     "rules": {
         "arrow-body-style": [0, "as-needed"],
-        "arrow-parens": [2, "as-needed"],
+        "babel/arrow-parens": [2, "as-needed"],
         "arrow-spacing": 2,
         "constructor-super": 2,
-        "generator-star-spacing": 2,
+        "babel/generator-star-spacing": 2,
         "no-class-assign": 2,
         "no-confusing-arrow": 2,
         "no-const-assign": 2,
@@ -22,7 +24,7 @@ module.exports = {
         "no-this-before-super": 2,
         "no-useless-constructor": 2,
         "no-var": 2,
-        "object-shorthand": 2,
+        "babel/object-shorthand": 2,
         "prefer-arrow-callback": 2,
         "prefer-const": 2,
         "prefer-reflect": 2,

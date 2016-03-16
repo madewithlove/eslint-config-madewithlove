@@ -1,6 +1,6 @@
 module.exports = {
     "rules": {
-        "array-bracket-spacing": 2,
+        "babel/array-bracket-spacing": 2,
         "block-spacing": 2,
         "brace-style": 2,
         "camelcase": [2, {
@@ -35,7 +35,7 @@ module.exports = {
         "max-nested-callbacks": 2,
         "max-params": [1, 5],
         "max-statements": 2,
-        "new-cap": 2,
+        "babel/new-cap": 2,
         "new-parens": 2,
         "newline-after-var": 0,
         "newline-per-chained-call": 0,
@@ -57,7 +57,7 @@ module.exports = {
         "no-underscore-dangle": 2,
         "no-unneeded-ternary": 2,
         "no-whitespace-before-property": 2,
-        "object-curly-spacing": [2, "never"],
+        "babel/object-curly-spacing": [2, "never"],
         "one-var": 0,
         "one-var-declaration-per-line": 2,
         "operator-assignment": 2,
