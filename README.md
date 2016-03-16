@@ -1,5 +1,7 @@
 # eslint-config-madewithlove
 
+[![Build Status](https://travis-ci.org/madewithlove/eslint-config-madewithlove.svg?branch=master)](https://travis-ci.org/madewithlove/eslint-config-madewithlove)
+
 ESLint rules for React projects.
 
 ## Installation
