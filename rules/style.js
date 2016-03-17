@@ -49,7 +49,7 @@ module.exports = {
         "no-negated-condition": 2,
         "no-nested-ternary": 2,
         "no-new-object": 2,
-        "no-plusplus": 2,
+        "no-plusplus": 0,
         "no-restricted-syntax": 2,
         "no-spaced-func": 2,
         "no-ternary": 0,
