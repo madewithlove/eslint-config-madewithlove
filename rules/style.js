@@ -15,7 +15,7 @@ module.exports = {
         "func-style": 0,
         "id-blacklist": 2,
         "id-length": [2, {
-            "exceptions": ["_", "a", "b", "i"]
+            "exceptions": ["_", "$", "a", "b", "i"]
         }],
         "id-match": 2,
         "indent": [2, 4, {
