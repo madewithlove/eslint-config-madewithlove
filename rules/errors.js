@@ -2,7 +2,7 @@ module.exports = {
     "rules": {
         "comma-dangle": [2, "always-multiline"],
         "no-cond-assign": 2,
-        "no-console": 1,
+        "no-console": [2, {'allow': ['warn', 'error']}],
         "no-constant-condition": 2,
         "no-control-regex": 2,
         "no-debugger": 2,
