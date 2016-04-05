@@ -5,6 +5,7 @@ module.exports = {
         "eslint-config-madewithlove/rules/best-practices",
         "eslint-config-madewithlove/rules/node",
         "eslint-config-madewithlove/rules/style",
+        "eslint-config-madewithlove/rules/flow",
         "eslint-config-madewithlove/rules/import",
         "eslint-config-madewithlove/rules/filenames",
         "eslint-config-madewithlove/rules/promise",

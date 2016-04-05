@@ -5,6 +5,7 @@ module.exports = {
         require.resolve("./rules/best-practices"),
         require.resolve("./rules/node"),
         require.resolve("./rules/style"),
+        require.resolve("./rules/flow"),
         require.resolve("./rules/promise"),
         require.resolve("./rules/variables"),
         require.resolve("./rules/filenames"),

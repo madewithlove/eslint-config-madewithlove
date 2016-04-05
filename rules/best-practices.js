@@ -20,7 +20,7 @@ module.exports = {
         'no-empty-pattern': 2,
         'no-eq-null': 2,
         'no-eval': 2,
-        'no-extend-native': 2,
+        'no-extend-native': [2, {exceptions: ['String']}],
         'no-extra-bind': 2,
         'no-extra-label': 2,
         'no-fallthrough': 2,
