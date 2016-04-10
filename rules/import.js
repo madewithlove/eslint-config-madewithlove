@@ -7,7 +7,7 @@ module.exports = {
         'import/named': 2,
         'import/namespace': 2,
         'import/no-amd': 2,
-        'import/no-commonjs': 2,
+        'import/no-commonjs': 0,
         'import/no-deprecated': 2,
         'import/no-duplicates': 2,
         'import/no-named-as-default': 2,
@@ -15,6 +15,6 @@ module.exports = {
     },
     'settings': {
         'import/ignore': ['node_modules', '.(json|scss|png|svg)'],
-        'import/resolver': 'webpack'
-    }
+        'import/resolver': 'webpack',
+    },
 };
