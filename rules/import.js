@@ -14,7 +14,7 @@ module.exports = {
         'import/no-unresolved': 2
     },
     'settings': {
-        'import/ignore': ['node_modules', '.(json|scss|png|svg)'],
+        'import/ignore': ['node_modules', '.(jpe?g|gif|json|scss|png|svg)'],
         'import/resolver': 'webpack',
     },
 };
