@@ -6,9 +6,10 @@ module.exports = {
         node: true,
         es6: true,
     },
-    ecmaFeatures: {
-        blockBindings: true,
-        modules: true,
+    parserOptions: {
+        ecmaFeatures: {
+            modules: true,
+        },
     },
     rules: {
         'arrow-body-style': [0, 'as-needed'],
