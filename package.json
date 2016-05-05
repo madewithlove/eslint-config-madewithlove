@@ -22,14 +22,14 @@
     "eslint-plugin-promise": "^1.1.0",
     "eslint-plugin-react": "^5.0.1"
   },
+  "devDependencies": {
+    "eslint": "^2.9.0"
+  },
   "peerDependencies": {
-    "eslint": "^2.4.0"
+    "eslint": "^2.9.0"
   },
   "scripts": {
     "postversion": "git push && git push --tags && npm publish",
     "test": "eslint tests"
-  },
-  "devDependencies": {
-    "eslint": "^2.4.0"
   }
 }

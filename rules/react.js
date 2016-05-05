@@ -1,9 +1,9 @@
 module.exports = {
-    'plugins': ['react'],
-    'ecmaFeatures': {
-        'jsx': true,
+    plugins: ['react'],
+    ecmaFeatures: {
+        jsx: true,
     },
-    'rules': {
+    rules: {
         'react/display-name': 2,
         'react/forbid-prop-types': 1,
         'react/no-danger': 2,
@@ -30,10 +30,10 @@ module.exports = {
         'react/jsx-curly-spacing': 2,
         'react/jsx-equals-spacing': 2,
         'react/jsx-handler-names': 2,
-        'react/jsx-indent-props': 2,
         'react/jsx-indent': 2,
+        'react/jsx-indent-props': 2,
         'react/jsx-key': 2,
-        'react/jsx-max-props-per-line': [2, {'maximum': 10}],
+        'react/jsx-max-props-per-line': [2, {maximum: 10}],
         'react/jsx-no-bind': 0,
         'react/jsx-no-duplicate-props': 2,
         'react/jsx-no-literals': 0,

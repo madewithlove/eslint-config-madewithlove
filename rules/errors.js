@@ -1,8 +1,8 @@
 module.exports = {
-    'rules': {
+    rules: {
         'comma-dangle': [2, 'always-multiline'],
         'no-cond-assign': 2,
-        'no-console': [2, {'allow': ['info', 'warn', 'error']}],
+        'no-console': [2, {allow: ['info', 'warn', 'error']}],
         'no-constant-condition': 2,
         'no-control-regex': 2,
         'no-debugger': 2,
@@ -25,12 +25,14 @@ module.exports = {
         'no-sparse-arrays': 2,
         'no-unexpected-multiline': 2,
         'no-unreachable': 2,
+        'no-unsafe-finally': 2,
+        'no-useless-computed-key': 2,
         'use-isnan': 2,
         'valid-jsdoc': [2, {
-            'requireReturn': false,
-            'requireParamDescription': false,
-            'requireReturnDescription': false
+            requireReturn: false,
+            requireParamDescription: false,
+            requireReturnDescription: false,
         }],
-        'valid-typeof': 2
+        'valid-typeof': 2,
     },
 };

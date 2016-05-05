@@ -1,5 +1,5 @@
 module.exports = {
-    'rules': {
+    rules: {
         'accessor-pairs': 2,
         'array-callback-return': 2,
         'block-scoped-var': 2,
@@ -57,6 +57,7 @@ module.exports = {
         'no-unused-labels': 2,
         'no-useless-call': 2,
         'no-useless-concat': 2,
+        'no-useless-escape': 2,
         'no-void': 2,
         'no-warning-comments': 2,
         'no-with': 2,

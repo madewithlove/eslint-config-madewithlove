@@ -1,6 +1,6 @@
 module.exports = {
-    'plugins': ['import'],
-    'rules': {
+    plugins: ['import'],
+    rules: {
         'import/default': 2,
         'import/export': 2,
         'import/imports-first': 2,
@@ -11,9 +11,9 @@ module.exports = {
         'import/no-deprecated': 2,
         'import/no-duplicates': 2,
         'import/no-named-as-default': 2,
-        'import/no-unresolved': 2
+        'import/no-unresolved': 2,
     },
-    'settings': {
+    settings: {
         'import/ignore': ['node_modules', '.(jpe?g|gif|json|scss|png|svg)'],
         'import/resolver': 'webpack',
     },
