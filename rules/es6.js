@@ -6,11 +6,6 @@ module.exports = {
         node: true,
         es6: true,
     },
-    parserOptions: {
-        ecmaFeatures: {
-            modules: true,
-        },
-    },
     rules: {
         'arrow-body-style': [0, 'as-needed'],
         'arrow-spacing': 2,
