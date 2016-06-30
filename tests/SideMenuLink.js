@@ -19,6 +19,9 @@ export default class SideMenuLink extends Component {
         router: PropTypes.object.isRequired,
     };
 
+    static foo = 'bar';
+    foo = 'bar';
+
     render() {
         const {to, label, fuzzyMatch} = this.props;
         const active = this.context.router.isActive(to, !fuzzyMatch);
