@@ -9,7 +9,6 @@ module.exports = {
     rules: {
         'babel/no-await-in-loop': 2,
         'babel/flow-object-type': 2,
-        'babel/func-params-comma-dangle': 2,
         'arrow-body-style': [0, 'as-needed'],
         'arrow-spacing': 2,
         'babel/arrow-parens': [2, 'as-needed'],
