@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-madewithlove",
-  "version": "3.4.0",
+  "version": "3.4.1",
   "description": "ESlint rules for React projects",
   "main": "index.js",
   "repository": {
