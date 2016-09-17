@@ -1,6 +1,7 @@
 module.exports = {
     "extends": [
         "eslint:recommended",
+        require.resolve("./rules/a11y"),
         require.resolve("./rules/errors"),
         require.resolve("./rules/best-practices"),
         require.resolve("./rules/node"),
