@@ -34,7 +34,7 @@ module.exports = {
         'react/jsx-equals-spacing': 2,
         'react/jsx-filename-extension': 0,
         'react/jsx-first-prop-new-line': 2,
-        'react/jsx-handler-names': 2,
+        'react/jsx-handler-names': 1,
         'react/jsx-indent': 2,
         'react/jsx-indent-props': 2,
         'react/jsx-key': 2,
