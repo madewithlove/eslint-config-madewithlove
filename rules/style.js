@@ -1,6 +1,6 @@
 module.exports = {
     rules: {
-        'babel/array-bracket-spacing': 2,
+        'array-bracket-spacing': 2,
         'babel/new-cap': 2,
         'babel/object-curly-spacing': [2, 'never'],
         'block-spacing': 2,
