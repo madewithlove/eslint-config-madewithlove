@@ -5,8 +5,8 @@ for (let foo = 0; foo < 20; foo++) {
 console.warn('Oh noes');
 console.error('Oh noes');
 
-const base = process.env.foo;
-export default base;
+const style = process.env.foo;
+export default style;
 
 const foo = 'bar';
 switch (foo) {
