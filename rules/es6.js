@@ -13,7 +13,6 @@ module.exports = {
         'constructor-super': 2,
         'flowtype/object-type-delimiter': 2,
         'generator-star-spacing': 2,
-        'no-await-in-loop': 2,
         'no-class-assign': 2,
         'no-confusing-arrow': 2,
         'no-const-assign': 2,
