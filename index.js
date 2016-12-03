@@ -11,6 +11,7 @@ module.exports = {
         'eslint-config-madewithlove/rules/node',
         'eslint-config-madewithlove/rules/promise',
         'eslint-config-madewithlove/rules/react',
+        'eslint-config-madewithlove/rules/security',
         'eslint-config-madewithlove/rules/style',
         'eslint-config-madewithlove/rules/variables',
         'eslint-config-madewithlove/rules/webpack',

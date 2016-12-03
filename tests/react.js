@@ -31,8 +31,7 @@ class SideMenuLink extends Component {
         const active = this.context.router.isActive(to, !fuzzyMatch);
 
         // Compute appropriate icon
-        const a = 'icon';
-        let icon = this.props[a] || label.toLowerCase();
+        let icon = this.props.icon || label.toLowerCase();
         const iconActive = active && ['edit', 'matching', 'publish', 'visit'].includes(icon);
         icon = classnames({
             [icon]: !iconActive,
