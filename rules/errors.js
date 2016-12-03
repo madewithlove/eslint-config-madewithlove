@@ -28,11 +28,7 @@ module.exports = {
         'no-unsafe-finally': 2,
         'no-unsafe-negation': 2,
         'use-isnan': 2,
-        'valid-jsdoc': [2, {
-            requireReturn: false,
-            requireParamDescription: false,
-            requireReturnDescription: false,
-        }],
+        'valid-jsdoc': 0,
         'valid-typeof': 2,
     },
 };

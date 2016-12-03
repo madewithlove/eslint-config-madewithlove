@@ -31,7 +31,8 @@ class SideMenuLink extends Component {
         const active = this.context.router.isActive(to, !fuzzyMatch);
 
         // Compute appropriate icon
-        let icon = this.props.icon || label.toLowerCase();
+        const a = 'icon';
+        let icon = this.props[a] || label.toLowerCase();
         const iconActive = active && ['edit', 'matching', 'publish', 'visit'].includes(icon);
         icon = classnames({
             [icon]: !iconActive,
@@ -54,5 +55,13 @@ class SideMenuLink extends Component {
 const react = (
     <SideMenuLink className="foo" children={<p>lol</p>} />
 );
+
+const ToolbarSide = () => {
+    return (
+        <div className="foo" />
+    );
+};
+
+react.Foobar = ToolbarSide;
 
 export default react;

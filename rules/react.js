@@ -1,5 +1,8 @@
 module.exports = {
     plugins: ['react'],
+    globals: {
+        __REDUX_DEVTOOLS_EXTENSION_COMPOSE__: false,
+    },
     rules: {
         'react/display-name': 2,
         'react/forbid-component-props': 0,
@@ -13,13 +16,13 @@ module.exports = {
         'react/no-direct-mutation-state': 2,
         'react/no-find-dom-node': 2,
         'react/no-is-mounted': 2,
-        'react/no-multi-comp': 2,
+        'react/no-multi-comp': 0,
         'react/no-render-return-value': 2,
         'react/no-set-state': 0,
         'react/no-string-refs': 2,
         'react/no-unescaped-entities': 2,
         'react/no-unknown-property': 2,
-        'react/no-unused-prop-types': 2,
+        'react/no-unused-prop-types': 1,
         'react/prefer-es6-class': 2,
         'react/prefer-stateless-function': 1,
         'react/prop-types': 2,

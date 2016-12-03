@@ -12,5 +12,6 @@ import 'k';
 import 'l';
 import path from 'path';
 import * as bars from 'foo';
+import 'file!../rules/import';
 
 require(path.join(__dirname, bars.foo));

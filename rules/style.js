@@ -1,7 +1,9 @@
 module.exports = {
     rules: {
         'array-bracket-spacing': 2,
-        'babel/new-cap': 2,
+        'babel/new-cap': [2, {
+            capIsNew: false,
+        }],
         'babel/object-curly-spacing': [2, 'never'],
         'block-spacing': 2,
         'brace-style': 2,
@@ -16,7 +18,7 @@ module.exports = {
         'func-names': 2,
         'func-style': 0,
         'id-blacklist': 2,
-        'id-length': [2, {exceptions: ['_', '$', 'i']}],
+        'id-length': 0,
         'id-match': 2,
         'indent': [2, 4, {SwitchCase: 1}],
         'jsx-quotes': 2,
@@ -31,7 +33,7 @@ module.exports = {
         'max-lines': 0,
         'max-nested-callbacks': 2,
         'max-params': 0,
-        'max-statements': 2,
+        'max-statements': 0,
         'max-statements-per-line': 2,
         'multiline-ternary': 0,
         'new-parens': 2,
@@ -54,7 +56,9 @@ module.exports = {
         'no-tabs': 2,
         'no-ternary': 0,
         'no-trailing-spaces': 2,
-        'no-underscore-dangle': 2,
+        'no-underscore-dangle': [2, {
+            allow: ['__REDUX_DEVTOOLS_EXTENSION_COMPOSE__'],
+        }],
         'no-unneeded-ternary': 2,
         'no-whitespace-before-property': 2,
         'object-curly-newline': 0,
@@ -64,7 +68,7 @@ module.exports = {
         'operator-assignment': 2,
         'operator-linebreak': 2,
         'padded-blocks': [2, 'never'],
-        'quote-props': [2, 'consistent-as-needed', {keywords: true}],
+        'quote-props': [2, 'consistent-as-needed'],
         'quotes': [2, 'single'],
         'require-jsdoc': 0,
         'semi': 2,

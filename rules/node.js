@@ -10,6 +10,6 @@ module.exports = {
         'no-process-exit': 2,
         'no-restricted-modules': 2,
         'no-restricted-properties': 2,
-        'no-sync': 2,
+        'no-sync': 0,
     },
 };
