@@ -11,9 +11,7 @@ module.exports = {
         'flowtype/no-weak-types': 0,
         'flowtype/object-type-delimiter': 2,
         'flowtype/require-parameter-type': 0,
-        'flowtype/require-return-type': [2, 'always', {
-            excludeArrowFunctions: true,
-        }],
+        'flowtype/require-return-type': 0,
         'flowtype/require-valid-file-annotation': 2,
         'flowtype/require-variable-type': 0,
         'flowtype/semi': 2,

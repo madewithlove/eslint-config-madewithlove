@@ -17,7 +17,7 @@ export class Foobar {
         this.foo = foo;
     }
 
-    foo(foo: Object, bar: boolean): string {
+    foo(foo: Object, bar: boolean) {
         if (foo.bar && bar) {
             return 'foo';
         }
