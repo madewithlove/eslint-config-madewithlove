@@ -3,10 +3,10 @@ import {Link} from 'react-router';
 import classnames from 'classnames';
 import Icon from '../../Icon';
 
-export default class SideMenuLink extends Component {
+class SideMenuLink extends Component {
     static propTypes = {
         fuzzyMatch: PropTypes.bool,
-        icon: PropTypes.string,
+        icon: PropTypes.any,
         label: PropTypes.string.isRequired,
         to: PropTypes.string.isRequired,
     };
@@ -22,6 +22,10 @@ export default class SideMenuLink extends Component {
     static foo = 'bar';
     foo = 'bar';
 
+    onFoobar() {
+        this.setState({foo: 'bar'});
+    }
+
     render() {
         const {to, label, fuzzyMatch} = this.props;
         const active = this.context.router.isActive(to, !fuzzyMatch);
@@ -35,9 +39,9 @@ export default class SideMenuLink extends Component {
         });
 
         return (
-            <li className={classnames({active})}>
+            <li ref={foo => this.foo = foo} className={classnames({active})}>
                 <Link to={to}>
-                    <span className="c-side-menu-icon">
+                    <span tabIndex="0" role="button" className="c-side-menu-icon" onClick={this.onFoobar.bind(this)}>
                         <Icon size={24} icon={icon} />
                     </span>
                     <span className="c-side-menu-label">{label}</span>
@@ -46,3 +50,9 @@ export default class SideMenuLink extends Component {
         );
     }
 }
+
+const react = (
+    <SideMenuLink className="foo" children={<p>lol</p>} />
+);
+
+export default react;
