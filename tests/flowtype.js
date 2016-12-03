@@ -1,5 +1,5 @@
 // @flow
-import {Map} from 'immutable';
+import {Map} from 'eslint';
 
 type FooType = {
     name: string,
@@ -11,17 +11,25 @@ export class Foobar {
         foo: Map,
     };
 
+    foo: FooType;
+
     constructor(foo: FooType) {
         this.foo = foo;
     }
 
-    foo(foo: Object, bar): string {
-        const baz = 'baz';
+    foo(foo: Object, bar: boolean): string {
+        if (foo.bar && bar) {
+            return 'foo';
+        }
 
-        return () => foo && bar && baz && 'bar';
+        return 'bar';
     }
 
     bar() {
         return;
+    }
+
+    baz(): number {
+        return 5;
     }
 }
