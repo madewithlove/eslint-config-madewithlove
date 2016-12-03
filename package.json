@@ -27,7 +27,7 @@
     "eslint": "^3.11.1"
   },
   "peerDependencies": {
-    "eslint": "^3.5.0"
+    "eslint": "^3.11.1"
   },
   "scripts": {
     "postversion": "git push && git push --tags && npm publish",
