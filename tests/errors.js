@@ -5,4 +5,10 @@ const errors = function aaa(foo, bar) {
     return foo + bar;
 };
 
-export default errors;
+function *onFoobar() {
+    while (true) {
+        yield 'foo';
+    }
+}
+
+export default onFoobar(errors);
