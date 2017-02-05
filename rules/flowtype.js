@@ -1,7 +1,6 @@
 module.exports = {
-    plugins: ['flowtype', 'flowtype-errors'],
+    plugins: ['flowtype'],
     rules: {
-        'flowtype-errors/show-errors': 2,
         'flowtype/boolean-style': 2,
         'flowtype/define-flow-type': 2,
         'flowtype/delimiter-dangle': [2, 'always-multiline'],
