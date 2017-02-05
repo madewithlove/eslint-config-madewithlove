@@ -16,7 +16,7 @@ module.exports = {
         'jsx-a11y/lang': 2,
         'jsx-a11y/mouse-events-have-key-events': 2,
         'jsx-a11y/no-access-key': 2,
-        'jsx-a11y/no-marquee': 2,
+        'jsx-a11y/no-distracting-elements': 2,
         'jsx-a11y/no-onchange': 2,
         'jsx-a11y/no-static-element-interactions': 0,
         'jsx-a11y/onclick-has-focus': 2,
