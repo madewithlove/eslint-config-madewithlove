@@ -2,6 +2,7 @@ module.exports = {
     rules: {
         'accessor-pairs': 2,
         'array-callback-return': 2,
+        'babel/no-invalid-this': 2,
         'block-scoped-var': 2,
         'class-methods-use-this': 0,
         'complexity': 0,
@@ -30,7 +31,6 @@ module.exports = {
         'no-implicit-coercion': 2,
         'no-implicit-globals': 2,
         'no-implied-eval': 2,
-        'babel/no-invalid-this': 2,
         'no-iterator': 2,
         'no-labels': 2,
         'no-lone-blocks': 2,
@@ -61,6 +61,7 @@ module.exports = {
         'no-void': 2,
         'no-warning-comments': 2,
         'no-with': 2,
+        'prefer-promise-reject-errors': [2, {allowEmptyReject: true}],
         'radix': 2,
         'vars-on-top': 2,
         'wrap-iife': 2,
