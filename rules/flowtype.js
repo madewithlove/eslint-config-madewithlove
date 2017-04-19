@@ -7,6 +7,7 @@ module.exports = {
         'flowtype/generic-spacing': 2,
         'flowtype/no-dupe-keys': 2,
         'flowtype/no-primitive-constructor-types': 2,
+        'flowtype/no-types-missing-file-annotation': 1,
         'flowtype/no-weak-types': 0,
         'flowtype/object-type-delimiter': 2,
         'flowtype/require-parameter-type': 0,
