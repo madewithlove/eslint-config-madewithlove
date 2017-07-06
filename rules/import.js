@@ -13,12 +13,12 @@ module.exports = {
         'import/no-amd': 2,
         'import/no-anonymous-default-export': [
             2, {
-                'allowArray': true,
-                'allowArrowFunction': false,
-                'allowAnonymousClass': false,
-                'allowAnonymousFunction': false,
-                'allowLiteral': true,
-                'allowObject': true,
+                allowArray: true,
+                allowArrowFunction: false,
+                allowAnonymousClass: false,
+                allowAnonymousFunction: false,
+                allowLiteral: true,
+                allowObject: true,
             },
         ],
         'import/no-commonjs': 0,

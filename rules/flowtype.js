@@ -24,9 +24,9 @@ module.exports = {
         'flowtype/use-flow-type': 2,
         'flowtype/valid-syntax': 2,
     },
-    "settings": {
-        "flowtype": {
-            "onlyFilesWithFlowAnnotation": true
-        }
-    }
+    settings: {
+        flowtype: {
+            onlyFilesWithFlowAnnotation: true,
+        },
+    },
 };
