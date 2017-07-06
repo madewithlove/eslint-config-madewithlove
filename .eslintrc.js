@@ -9,6 +9,7 @@ module.exports = {
         require.resolve("./rules/flowtype"),
         require.resolve("./rules/import"),
         require.resolve("./rules/node"),
+        require.resolve("./rules/prettier"),
         require.resolve("./rules/promise"),
         require.resolve("./rules/react"),
         require.resolve("./rules/security"),
