@@ -11,6 +11,16 @@ module.exports = {
         'import/newline-after-import': 2,
         'import/no-absolute-path': 2,
         'import/no-amd': 2,
+        'import/no-anonymous-default-export': [
+            2, {
+                'allowArray': true,
+                'allowArrowFunction': false,
+                'allowAnonymousClass': false,
+                'allowAnonymousFunction': false,
+                'allowLiteral': true,
+                'allowObject': true,
+            },
+        ],
         'import/no-commonjs': 0,
         'import/no-deprecated': 2,
         'import/no-duplicates': 2,
