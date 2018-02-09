@@ -1,13 +1,15 @@
-import foo, {callback} from 'foo';
+import foo, { callback } from 'foo';
 
 const promise = new Promise(resolve => {
-    resolve(foo.then(response => {
-        return response.then(baz => {
-            callback();
+    resolve(
+        foo.then(response =>
+            response.then(baz => {
+                callback();
 
-            return response.send(baz);
-        });
-    }));
+                return response.send(baz);
+            }),
+        ),
+    );
 });
 
 export default promise;

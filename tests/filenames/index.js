@@ -1,1 +1,1 @@
-export {default as foo} from '../a11y';
+export { default as foo } from '../a11y';

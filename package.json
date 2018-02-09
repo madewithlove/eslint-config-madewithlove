@@ -1,40 +1,46 @@
 {
-  "name": "eslint-config-madewithlove",
-  "version": "5.1.1",
-  "description": "ESlint rules for React projects",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/madewithlove/eslint-config-madewithlove.git"
-  },
-  "author": {
-    "name": "Madewithlove",
-    "email": "heroes@madewithlove.be"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint-import-resolver-webpack": "^0.8.3",
-    "eslint-plugin-babel": "^4.1.1",
-    "eslint-plugin-filenames": "^1.2.0",
-    "eslint-plugin-flowtype": "^2.34.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-prettier": "^2.1.2",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-react": "^7.1.0",
-    "eslint-plugin-security": "^1.4.0",
-    "prettier": "^1.5.2"
-  },
-  "devDependencies": {
-    "eslint": "^4.1.1"
-  },
-  "peerDependencies": {
-    "eslint": "^3.19.0"
-  },
-  "scripts": {
-    "postversion": "git push && git push --tags && npm publish",
-    "lint": "eslint rules --fix",
-    "test": "eslint tests"
-  }
+    "name": "eslint-config-madewithlove",
+    "version": "5.1.1",
+    "description": "ESlint rules for React projects",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/madewithlove/eslint-config-madewithlove.git"
+    },
+    "author": {
+        "name": "Madewithlove",
+        "email": "heroes@madewithlove.be"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "babel-eslint": "^8.2.1",
+        "eslint-import-resolver-webpack": "^0.8.4",
+        "eslint-plugin-babel": "^4.1.2",
+        "eslint-plugin-filenames": "^1.2.0",
+        "eslint-plugin-flowtype": "^2.43.0",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-prettier": "^2.6.0",
+        "eslint-plugin-promise": "^3.6.0",
+        "eslint-plugin-react": "^7.6.1",
+        "eslint-plugin-security": "^1.4.0",
+        "prettier": "^1.10.2"
+    },
+    "devDependencies": {
+        "eslint": "^4.17.0"
+    },
+    "peerDependencies": {
+        "eslint": "^4.17.0"
+    },
+    "scripts": {
+        "postversion": "git push && git push --tags && npm publish",
+        "lint": "eslint rules --fix",
+        "lint:fix": "prettier '{./*,{rules,tests}/**/*}.{js,json,md}' --write",
+        "test": "eslint tests"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": true,
+        "trailingComma": "all"
+    }
 }

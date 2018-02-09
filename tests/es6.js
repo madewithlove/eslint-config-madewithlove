@@ -1,4 +1,4 @@
-const es6 = {foo: 'bar'};
+const es6 = { foo: 'bar' };
 
 delete es6.foo;
 

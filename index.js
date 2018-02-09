@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        'eslint:recommended',
+        // Custom rulesets
         'eslint-config-madewithlove/rules/a11y',
         'eslint-config-madewithlove/rules/best-practices',
         'eslint-config-madewithlove/rules/errors',

@@ -5,7 +5,6 @@ module.exports = {
         'security/detect-child-process': 2,
         'security/detect-disable-mustache-escape': 2,
         'security/detect-eval-with-expression': 2,
-        'security/detect-new-buffer': 2,
         'security/detect-no-csrf-before-method-override': 0,
         'security/detect-non-literal-fs-filename': 0,
         'security/detect-non-literal-regexp': 2,

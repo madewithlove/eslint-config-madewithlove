@@ -12,7 +12,6 @@ module.exports = {
         'arrow-spacing': 2,
         'constructor-super': 2,
         'generator-star-spacing': 2,
-        'no-await-in-loop': 2,
         'no-class-assign': 2,
         'no-confusing-arrow': 2,
         'no-const-assign': 2,

@@ -1,5 +1,5 @@
 // @flow
-import {Map} from 'eslint';
+import { Map } from 'eslint';
 
 type FooType = {
     name: string,
@@ -25,9 +25,7 @@ export class Foobar {
         return 'bar';
     }
 
-    bar() {
-        return;
-    }
+    bar() {}
 
     baz(): number {
         return 5;

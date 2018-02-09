@@ -14,9 +14,9 @@ Then create an `.eslintrc` file:
 
 ```json
 {
-  "extends": "madewithlove",
-  "rules": {
-    "override": "any-rule-here"
-  }
+    "extends": "madewithlove",
+    "rules": {
+        "override": "any-rule-here"
+    }
 }
 ```
