@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+const glob = require('glob');
+const path = require('path');
+const { spawnSync } = require('child_process');
+
+function supportedByEslint(filepath) {
+    return ['.js'].includes(path.extname(filepath));
+}
+
+// Split arguments between ours and ESLint's
+const [pattern, ...rest] = process.argv.slice(2);
+const files = glob.sync(pattern).filter(supportedByEslint);
+
+// Define the tools to run on the given pattern
+const tools = [
+    { tool: 'prettier', args: [pattern, '--write'] },
+    { tool: 'eslint', args: [...files, '--fix', ...rest] },
+];
+
+// Run each file in succession, stopping at first problem
+tools.forEach(({ tool, args }, key) => {
+    console.info(`\n✅  [${key + 1}/${tools.length}] Running ${tool}\n`);
+    const { status } = spawnSync(tool, args, { stdio: 'inherit' });
+    if (status !== 0) {
+        process.exit(status);
+    }
+});

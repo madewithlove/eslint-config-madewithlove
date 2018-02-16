@@ -3,6 +3,9 @@
     "version": "5.1.1",
     "description": "ESlint rules for React projects",
     "main": "index.js",
+    "bin": {
+        "lint": "bin/lint.js"
+    },
     "repository": {
         "type": "git",
         "url":
@@ -25,6 +28,7 @@
         "eslint-plugin-promise": "^3.6.0",
         "eslint-plugin-react": "^7.6.1",
         "eslint-plugin-security": "^1.4.0",
+        "glob": "^7.1.2",
         "prettier": "^1.10.2"
     },
     "devDependencies": {
@@ -35,9 +39,7 @@
     },
     "scripts": {
         "postversion": "git push && git push --tags && npm publish",
-        "lint": "eslint rules --fix",
-        "lint:fix": "prettier '{./*,{rules,tests}/**/*}.{js,json,md}' --write",
-        "test": "eslint tests"
+        "lint": "./bin/lint '{./*,{rules,tests}/**/*}.{js,json,md}'"
     },
     "prettier": {
         "tabWidth": 4,
