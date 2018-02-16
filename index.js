@@ -6,7 +6,6 @@ module.exports = {
         'eslint-config-madewithlove/rules/errors',
         'eslint-config-madewithlove/rules/es6',
         'eslint-config-madewithlove/rules/filenames',
-        'eslint-config-madewithlove/rules/flowtype',
         'eslint-config-madewithlove/rules/import',
         'eslint-config-madewithlove/rules/node',
         'eslint-config-madewithlove/rules/promise',
