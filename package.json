@@ -4,7 +4,7 @@
     "description": "ESlint rules for React projects",
     "main": "index.js",
     "bin": {
-        "lint": "bin/lint"
+        "mwlint": "bin/mwlint"
     },
     "repository": {
         "type": "git",
@@ -38,7 +38,7 @@
     },
     "scripts": {
         "postversion": "git push && git push --tags && npm publish",
-        "lint": "./bin/lint '{./*,{rules,tests}/**/*}.{js,json,md}'"
+        "lint": "./bin/mwlint '{./*,{rules,tests}/**/*}.{js,json,md}'"
     },
     "prettier": {
         "tabWidth": 4,

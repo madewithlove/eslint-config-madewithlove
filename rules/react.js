@@ -23,7 +23,7 @@ module.exports = {
         'react/no-did-mount-set-state': 2,
         'react/no-did-update-set-state': 2,
         'react/no-direct-mutation-state': 2,
-        'react/no-find-dom-node': 2,
+        'react/no-find-dom-node': 0,
         'react/no-is-mounted': 2,
         'react/no-multi-comp': 0,
         'react/no-redundant-should-component-update': 2,
