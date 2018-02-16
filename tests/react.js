@@ -23,11 +23,12 @@ class SideMenuLink extends Component {
     foo = 'bar';
 
     onFoobar() {
-        this.setState({ foo: 'bar' });
+        this.setState({ bar: 'bar' });
     }
 
     render() {
         const { to, label, fuzzyMatch } = this.props;
+        const { bar } = this.state;
         const active = this.context.router.isActive(to, !fuzzyMatch);
 
         // Compute appropriate icon
@@ -53,7 +54,9 @@ class SideMenuLink extends Component {
                     >
                         <Icon size={24} icon={icon} />
                     </span>
-                    <span className="c-side-menu-label">{label}</span>
+                    <span className="c-side-menu-label">
+                        {label} {bar}
+                    </span>
                 </Link>
             </li>
         );
