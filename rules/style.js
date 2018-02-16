@@ -70,7 +70,7 @@ module.exports = {
         // 'operator-linebreak': 2,
         // 'padded-blocks': [2, 'never'],
         'quote-props': [2, 'consistent-as-needed'],
-        'quotes': [1, 'single'],
+        "quotes": [1, 'single'],
         // 'require-jsdoc': 0,
         // semi: 2,
         // 'semi-spacing': 2,

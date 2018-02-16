@@ -3,7 +3,7 @@ module.exports = {
     rules: {
         'import/default': 2,
         'import/export': 2,
-        'import/exports-last': 2,
+        'import/exports-last': 1,
         'import/extensions': 2,
         'import/first': 2,
         'import/max-dependencies': 0,
