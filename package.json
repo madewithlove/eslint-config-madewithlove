@@ -5,7 +5,8 @@
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/madewithlove/eslint-config-madewithlove.git"
+        "url":
+            "git+https://github.com/madewithlove/eslint-config-madewithlove.git"
     },
     "author": {
         "name": "Madewithlove",

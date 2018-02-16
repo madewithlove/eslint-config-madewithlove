@@ -11,7 +11,7 @@ module.exports = {
         'arrow-parens': [2, 'as-needed'],
         'arrow-spacing': 2,
         'constructor-super': 2,
-        'generator-star-spacing': 2,
+        'generator-star-spacing': 0,
         'no-class-assign': 2,
         'no-confusing-arrow': 2,
         'no-const-assign': 2,
