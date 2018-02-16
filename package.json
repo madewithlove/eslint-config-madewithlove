@@ -4,7 +4,7 @@
     "description": "ESlint rules for React projects",
     "main": "index.js",
     "bin": {
-        "lint": "bin/lint.js"
+        "lint": "bin/lint"
     },
     "repository": {
         "type": "git",
