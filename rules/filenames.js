@@ -3,6 +3,6 @@ module.exports = {
     rules: {
         'filenames/match-exported': 'error',
         'filenames/match-regex': ['error', '^[A-Za-z0-9-]+$'],
-        'filenames/no-index': 0,
+        'filenames/no-index': 'off',
     },
 };

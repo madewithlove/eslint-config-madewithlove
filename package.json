@@ -17,6 +17,7 @@
     },
     "license": "MIT",
     "dependencies": {
+        "babel-eslint": "^8.2.2",
         "eslint-config-prettier": "^2.9.0",
         "eslint-import-resolver-webpack": "^0.8.4",
         "eslint-plugin-filenames": "^1.2.0",
@@ -34,7 +35,7 @@
         "eslint": "^4.18.1"
     },
     "peerDependencies": {
-        "eslint": "^4.17.0"
+        "eslint": "^4.18.1"
     },
     "scripts": {
         "postversion": "git push && git push --tags && npm publish",
