@@ -11,9 +11,17 @@ function supportedByEslint(filepath) {
 const [pattern, ...rest] = process.argv.slice(2);
 const files = glob.sync(pattern).filter(supportedByEslint);
 
+// Compute Prettier arguments
+const pkg = require('../package');
+const prettier = [
+    '--trailing-comma', pkg.prettier.trailingComma,
+    '--tab-width', pkg.prettier.tabWidth,
+    '--single-quote', pkg.prettier.singleQuote,
+];
+
 // Define the tools to run on the given pattern
 const tools = [
-    { tool: 'prettier', args: [pattern, '--write'] },
+    { tool: 'prettier', args: ['--write', ...prettier, pattern] },
     { tool: 'eslint', args: [...files, '--fix', ...rest] },
 ];
 
