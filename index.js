@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        'eslint-config-madewithlove/rules/core',
+        'eslint-config-madewithlove/rules/eslint',
         'eslint-config-madewithlove/rules/a11y',
         'eslint-config-madewithlove/rules/filenames',
         'eslint-config-madewithlove/rules/import',
