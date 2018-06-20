@@ -1,10 +1,17 @@
-const reducer = (state, action) => {
+// no-case-declarations
+function reducer(state, action) {
     switch (action.type) {
         case 'FOOBAR':
             const foo = { ...action, bar: 'baz' };
 
             return { ...state, foo };
     }
-};
+}
 
-reducer({}, { type: 'FOOBAR' });
+// no-console
+console.warn(reducer({}, { type: 'FOOBAR' }));
+
+// no-constant-condition
+while (true) {
+    console.warn('true');
+}
